@@ -7,10 +7,18 @@ body{
   background-color: mediumvioletred;
 }
 
-div.img{
+div.title-picture{
+  background-image: ;
   display: flex;
   justify-content: center;
 }
+
+div.bottom-text{
+  border-color: ghostwhite;
+  display: flex;
+  justify-content: center;
+}
+
 
 h1{
   display: flex;
@@ -18,3 +26,4 @@ h1{
   font-weight: 900;
   color: ghostwhite;
 }
+
