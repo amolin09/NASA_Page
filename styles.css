@@ -15,8 +15,7 @@ h1{
   color: ghostwhite;
 }
 
-div.title-picture{
-  border: 2px solid red;
+div.banner{
   background-image: url("nasa_pic.jpg");
   background-repeat:no-repeat;
   background-position: center;
@@ -24,17 +23,30 @@ div.title-picture{
   margin: 0px;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 div.content{
-  border: 2px solid blue;
+
   font-size: large;
   color: black;
   margin-top: 2%;
+  margin-bottom: 5%;
   display: flex;
   justify-content: space-evenly;
 }
 
+p{
+  margin: 0px;
+}
 
+form{
+  display: flex;
+  flex-direction:column;
+}
 
+button{
+  color:white;
+  background-color:lightslategray;
+}
 
